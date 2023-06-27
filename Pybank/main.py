@@ -16,13 +16,16 @@ with open(csvpath) as csv_file:
             
 # iterate throwugh rows and get the sum of months
 #    for row in csvreader:
-#         total_months = sum(row[0])
-#         print(total_months)
+#         total_months = 0
+#         total_months = total_months + str(row[0])
+#    print(total_months)
 
 # iterate through rows to find net total profit
     for row in csvreader:
-        net_profit = sum(int(row[1]))
-        print(net_profit)
+        net_profit = 0
+        net_profit = net_profit + int(row[1])
+    print(net_profit)
+
 
 
 
