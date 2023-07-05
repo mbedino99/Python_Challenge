@@ -39,7 +39,7 @@ with open(csvpath) as csv_file:
             max_decrease[1] = profit_change
 
 # calculate average profit change
-profit_change = sum(profit_change_list) / len(profit_change_list)
+profit_change = round(sum(profit_change_list) / len(profit_change_list), 2)
 
 # create output chart
 output = (
@@ -54,7 +54,7 @@ output = (
 
 print(output)
 
-# create text file
+ # create text file
 with open("PyBank_Output", 'w') as txt_file:
     txt_file.write(output)
 
