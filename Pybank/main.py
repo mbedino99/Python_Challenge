@@ -8,10 +8,10 @@ old_profit = 0
 month_change = []
 profit_change_list = []
 max_increase = ['', 0]
-max_decrease = ['', 99999999999999999999]
+max_decrease = ['', 10000000000000000000000000000000000000]
 total_profit = 0
 
-# open csv file and create csv reader as list of dictionaries
+# open csv file and create csv reader
 csvpath = os.path.join("/Users/tincho/Desktop/Challenge Reps/Python_Challenge/Pybank_data/budget_data.csv")
 with open(csvpath) as csv_file:
     reader = csv.DictReader(csv_file)
