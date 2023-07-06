@@ -12,7 +12,7 @@ max_decrease = ['', 10000000000000000000000000000000000000]
 total_profit = 0
 
 # open csv file and create csv reader
-csvpath = os.path.join("/Users/tincho/Desktop/Challenge Reps/Python_Challenge/Pybank_data/budget_data.csv")
+csvpath = os.path.join("/Users/tincho/Desktop/Challenge Reps/Python_Challenge/PyBank/resources/budget_data.csv")
 with open(csvpath) as csv_file:
     reader = csv.DictReader(csv_file)
 

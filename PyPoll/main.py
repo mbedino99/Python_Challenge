@@ -12,7 +12,7 @@ zipped_lists = []
 winner = []
 
 # open csv file and create csv reader
-csvpath = os.path.join("/Users/tincho/Desktop/Challenge Reps/Python_Challenge/Pypoll_data/election_data.csv")
+csvpath = os.path.join("/Users/tincho/Desktop/Challenge Reps/Python_Challenge/PyPoll/resources/election_data.csv")
 with open(csvpath, "r") as csv_file:
     reader = csv.reader(csv_file)
     next(reader, None)
